@@ -1,0 +1,467 @@
+html, body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(76, 151, 250);
+    color: rgb(187, 36, 36);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 65px;
+    position: absolute;
+    -top: 10px;
+    margin-left: 3%;
+    -border: 1px red solid;
+ }
+
+#menu {
+    border: 8px rgb(201, 130, 0) solid;
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+   
+}
+
+li {
+ float: left;  
+ padding: 20 20 20 10; 
+ -border: 1px solid red;
+}
+
+li:hover {
+    -background-color: #6dafc7
+}
+
+#imagem_fundo {
+    background: url("img/Design\ sem\ nome\ \(2\).png");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+
+#titulo {
+    color: rgb(160, 14, 14);
+    padding-top: 20%;
+    font-size: 70px ;
+    line-height: 1;
+    text-shadow: rgb(0, 0, 0) 5px 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#subtitulo {
+    color: rgb(0, 0, 0);
+    -text-shadow: black 1.5px 1.5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: x-large;
+    hr align="center" width="80%"
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+
+#plantaoduvidas { 
+    background-color: rgb(148, 243, 255);
+    width: 100%;
+    text-align: center;
+    color: navy;
+}
+#novameca {
+text-align: center;
+width: 50%;
+
+
+
+}
+
+.avocados {
+padding-left: 190px;
+float: right
+position relative;
+
+
+}
+#selecao {
+    background-color: rgb(190, 237, 253);
+}
+
+#caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid tomato;
+    text-align: center;
+    line-height: 89.5px;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 60px;
+    text-decoration: none;
+    seletor align-self: hover;
+}
+
+.imagem {
+
+
+
+
+}
+
+
+
+
+.icone {
+    width: 51px;
+    }
+
+ section {
+     padding: 80px;
+     float: left;
+ }   
+
+
+.destaque { 
+    background-color: #acfffb;
+
+}
+
+.imgeco {
+    width: 80%;
+    height: 30%;
+}
+
+
+.coluna {   
+    float: left;
+    padding: 2 5%;
+    position: relative;
+
+}
+
+.dois {
+    width: 40%;
+
+}
+
+.quatro {
+    width: 15%;
+}
+
+.tres {
+    width: 29%;
+    padding:0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+footer {
+    background-color: #a9aca3;
+    width: 160%;
+    height: 70%;
+    float: left;
+    -margin: 0 auto;
+    -overflow: hidden;
+    -padding: 40px 0 50px ;
+    color: rgb(2, 3, 3);
+}
+
+.centralizado {
+    text-align: center;
+}
+
+#sobre {
+    background-color: rgba(50, 116, 34, 0.733);
+}
+
+#textomidiatico {
+background-color: rgb(118, 221, 255);
+font-size: medium;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.metade {
+width: 70%;
+display: block;
+padding-left: 10%;
+
+
+}
+
+.fontelegal {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.fonte2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+@media screen and (max-width: 900px) {
+    #menu , #novameca , .imagem, .coluna, .destaque, #sobre, #selecao {
+      display: none;
+
+
+    }
+}
+
+.corgo {
+background-color: rgb(255, 127, 68);
+
+
+}
+.baque {
+
+
+
+
+}
+
+
+* { margin: 0; padding: 0; }
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 340px;
+    margin-left: 60px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0;
+        visibility: hidden;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: rgb(87, 87, 87);
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 30px;
+}
+
+.slider li:nth-child(3) label {
+    left: 50px;
+
+} 
+
+.slider li:nth-child(4) label {
+    left: 70px;
+
+} 
+.slider li:nth-child(5) label {
+    left: 90px;
+
+} 
+.slider li:nth-child(6) label {
+    left: 110px;
+
+} 
+.slider li:nth-child(7) label {
+    left: 130px;
+
+} 
+.slider li:nth-child(8) label {
+    left: 150px;
+
+} 
+.slider li:nth-child(9) label {
+    left: 170px;
+
+} 
+.slider li:nth-child(10) label {
+    left: 190px;
+
+} 
+.slider li:nth-child(11) label {
+    left: 210px;
+
+} 
+.slider li:nth-child(12) label {
+    left: 230px;
+
+} 
+.slider li:nth-child(13) label {
+    left: 250px;
+
+} 
+.slider li:nth-child(14) label {
+    left: 270px;
+
+} 
+.slider li:nth-child(15) label {
+    left: 290px;
+
+} 
+.slider li:nth-child(16) label {
+    left: 310px;
+
+} 
+
+.slider li input:checked ~ img {
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    }
+
+  
+
+
+/_ Here's where our carousel begins, with the main wrapper being
+relatively positioned, so that our absolutely positioned items are
+in the right place. _/
+.carousel-wrapper {
+position: relative;
+
+/_ Our absolutely positioned carousel items span the width and
+height of its parent. We're making them transparent by default so
+that they fade in when we cycle through them using the arrow links. _/
+.carousel-item {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 25px 50px;
+opacity: 0;
+transition: all 0.5s ease-in-out;
+
+    /* Did you notice the 50px left, right padding up above? It's so
+    we can position our arrow links! Each one will be 50px wide. Also,
+    I'm using empty links with a background image so that the links
+    look like arrows. Make sure you swap out that URL with an actual
+    URL so that your arrow links aren't just transparent rectangles. */
+    .arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: url("/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+
+      /* Let's put our arrow to go back on the left. */
+      &.arrow-prev {
+        left: 0;
+      }
+
+      /* And our arrow to go forward on the right. Since I'm using
+      the same arrow image for both my arrows, I'm rotating this one by
+      180 degrees so that it points in the right direction */
+      &.arrow-next {
+        right: 0;
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+      }
+    }
+
+    /* I really like how these carousel items look on a dark image
+    background, so if a .carousel-item div has the class 'light',
+    we'll make its text color white, and use a white arrow instad of
+    a dark gray one. Again, make sure this arrow image exists somewhere */
+    &.light {
+      color: white;
+
+      .arrow {
+        background: url("/carousel-arrow-light.png") 50% 50% / 20px no-repeat;
+      }
+    }
+
+    /* Let's use using some media queries to resize the arrows
+    on smaller devices.*/
+    @media (max-width: 480px) {
+      .arrow, &.light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+      }
+    }
+
+}
+
+/_ Let's set our jump link targets display: none; so that we're not
+making the browser jump to the top of the carousel whenever a user
+clicks on one of our arrow links. This attribute selector will target
+any element whose id starts with 'target-item'. _/
+[id^="target-item"] {
+display: none;
+}
+
+/_ So, up above we made all our carousel items transparent, which means
+that on page-load, we'd have a big empty box where our carousel should be.
+Let's set our first item's opacity to 1 so that it displays instead. Also,
+we're setting its z-index to 2, so that it's positioned on top of the
+other carousel items. _/
+.item-1 {
+z-index: 2;
+opacity: 1;
+}
+
+/_ But we don't want the first item to ALAWYS be opacity: 1; otherwise
+it would peek through when cycling between items two and above. _/
+\*:target ~ .item-1 {
+opacity: 0;
+}
+
+/_ ...but if #target-item-1 is targeted, well we do want the first item
+to show up, so we're selecting it with the ~ sibling selector and
+setting its opacity to 1 again :-) _/
+#target-item-1:target ~ .item-1 {
+opacity: 1;
+}
+
+/_ If any other target-item-# is targeted, let's select it using the sibling
+selector, make it fade in, and place it on top of the pile using z-index: 3.
+Here's where you'd add more target items if your carousel has more than three
+items. It might be worth adding like 10 items right off the bat. _/
+#target-item-2:target ~ .item-2, #target-item-3:target ~ .item-3 {
+z-index: 3;
+opacity: 1;
+}
+}
